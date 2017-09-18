@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60842fc6-8125-4755-8df5-52045a373ccd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter_README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bookshelf/Book.js" afterPath="$PROJECT_DIR$/src/Bookshelf/Book.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -65,17 +63,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Book.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bookshelf/Book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="117" lean-forward="false" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <marker date="1505753139537" expanded="true" signature="484:1402" ph="..." />
-                <marker date="1505753139537" expanded="true" signature="527:1204" ph="..." />
-                <marker date="1505753139537" expanded="true" signature="583:595" ph="..." />
-                <marker date="1505753139537" expanded="true" signature="658:1181" ph="..." />
-                <marker date="1505753139537" expanded="true" signature="751:1154" ph="..." />
+                <marker date="1505756943662" expanded="true" signature="484:1384" ph="..." />
+                <marker date="1505756943662" expanded="true" signature="527:1204" ph="..." />
+                <marker date="1505756943662" expanded="true" signature="583:595" ph="..." />
+                <marker date="1505756943662" expanded="true" signature="658:1181" ph="..." />
+                <marker date="1505756943662" expanded="true" signature="751:1154" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,10 +120,10 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/MyReads.js" />
         <option value="$PROJECT_DIR$/src/Bookshelf/Bookshelf.js" />
-        <option value="$PROJECT_DIR$/src/Bookshelf/Book.js" />
         <option value="$PROJECT_DIR$/src/SearchMyReads.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Bookshelf/Book.js" />
       </list>
     </option>
   </component>
@@ -235,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38666000" />
+    <option name="totallyTimeSpent" value="39151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -420,11 +418,11 @@
         <state relative-caret-position="330">
           <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <marker date="1505753139537" expanded="true" signature="484:1402" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="527:1204" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="583:595" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="658:1181" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="751:1154" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="484:1384" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="527:1204" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="583:595" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="658:1181" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="751:1154" ph="..." />
           </folding>
         </state>
       </provider>
@@ -492,11 +490,11 @@
         <state relative-caret-position="374">
           <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <marker date="1505753139537" expanded="true" signature="484:1402" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="527:1204" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="583:595" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="658:1181" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="751:1154" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="484:1384" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="527:1204" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="583:595" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="658:1181" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="751:1154" ph="..." />
           </folding>
         </state>
       </provider>
@@ -653,30 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bookshelf/Book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="117" lean-forward="false" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
-          <folding>
-            <marker date="1505753139537" expanded="true" signature="484:1402" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="527:1204" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="583:595" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="658:1181" ph="..." />
-            <marker date="1505753139537" expanded="true" signature="751:1154" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchMyReads.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="56" lean-forward="false" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -684,6 +658,17 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -698,14 +683,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/SearchMyReads.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="56" lean-forward="false" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bookshelf/Book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1505756943662" expanded="true" signature="484:1384" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="527:1204" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="583:595" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="658:1181" ph="..." />
+            <marker date="1505756943662" expanded="true" signature="751:1154" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
