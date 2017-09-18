@@ -1,19 +1,16 @@
 import React, {Component} from 'react';
 
 class Book extends Component {
+    handleShelfChange = (e) => {
+        this.props.update(this.props.book, e.target.value);
+    };
 
     render() {
-        const { title, authors, thumbUrl, shelf} = this.props;
+        const { book } = this.props;
         const coverStyle = {
             width: 128,
             height: 193,
-            backgroundImage: 'url(' + thumbUrl + ')',
-        };
-        const selection = {
-            cr: (shelf === "currentlyReading"),
-            w2r: (shelf === "wantToRead"),
-            read: (shelf === "read"),
-            none: (shelf === "none")
+            backgroundImage: (typeof book.imageLinks !== "undefined") ? 'url(' + book.imageLinks.thumbnail  + ')' : ""
         };
 
         return (
@@ -21,17 +18,17 @@ class Book extends Component {
                 <div className="book-top">
                     <div className="book-cover" style={coverStyle}></div>
                     <div className="book-shelf-changer">
-                        <select>
+                        <select defaultValue={book.shelf} onChange={this.handleShelfChange}>
                             <option value="none" disabled>Move to...</option>
-                            <option value="currentlyReading" selected={selection.cr}>Currently Reading</option>
-                            <option value="wantToRead" selected={selection.w2r}>Want to Read</option>
-                            <option value="read" selected={selection.read}>Read</option>
-                            <option value="none" selected={selection.none}>None</option>
+                            <option value="currentlyReading">Currently Reading</option>
+                            <option value="wantToRead">Want to Read</option>
+                            <option value="read">Read</option>
+                            <option value="none">None</option>
                         </select>
                     </div>
                 </div>
-                <div className="book-title">{title}</div>
-                <div className="book-authors">{authors.join(", ")}</div>
+                <div className="book-title">{book.title ? book.title : ""}</div>
+                <div className="book-authors">{book.authors ? book.authors.join(", ") : ""}</div>
             </div>
         );
     }

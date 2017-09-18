@@ -12,26 +12,29 @@ class BooksApp extends React.Component {
     };
 
     componentDidMount () {
-        let books = [];
         BooksAPI.getAll()
-            .then( bks => bks.forEach( b => books.push(b)))
-            .then( () => this.setState({ books: books } ));
-    }
-
-    /*TODO: Functions I need:
-     *  onUpdate()
-     *  onAdd()
-     *  onSearch()
-     */
+            .then((books) => this.setState({books: [...books]}))
+    };
 
     onUpdate = (book,newShelf) => {
         BooksAPI.update(book,newShelf);
+
         this.setState((prevState) => {
+            let foundIt = false;
             for( let i = 0; i < prevState.books.length; i++ ) {
                 if( prevState.books[i].id === book.id ) {
-                    prevState.books[i].shelf = newShelf;
-                    break; //since id's are unique
+                    if( newShelf === "none" ) {
+                        prevState.books = prevState.books.filter((bk) => bk.id !== book.id);
+                    } else {
+                        foundIt = true;
+                        prevState.books[i].shelf = newShelf;
+                    }
+                    return prevState;
                 }
+            }
+
+            if( !foundIt && newShelf !== "none" ) {
+                BooksAPI.get(book.id).then((book) => prevState.books.push(book));
             }
             return prevState;
         });
@@ -47,7 +50,10 @@ class BooksApp extends React.Component {
                     />
                 )}/>
                 <Route path="/search" render={() => (
-                    <Search/>
+                    <Search
+                        books={this.state.books}
+                        update={this.onUpdate}
+                    />
                 )}/>
             </div>
         )

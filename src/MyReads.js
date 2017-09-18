@@ -16,24 +16,23 @@ class MyReads extends Component {
                    <div>
                        <div className="bookshelf">
                            <Bookshelf
-                               shelf_name="Currently Reading"
+                               shelfName="Currently Reading"
                                books={books.filter( book => book.shelf === "currentlyReading" )}
                                update={update}
                            />
                        </div>
                        <div className="bookshelf">
                            <Bookshelf
-                               shelf_name="Want to Read"
+                               shelfName="Want to Read"
                                books={books.filter( book => book.shelf === "wantToRead" )}
                                update={update}
                            />
                        </div>
                        <div className="bookshelf">
                            <Bookshelf
-                               shelf_name="Read"
+                               shelfName="Read"
                                books={books.filter( book => book.shelf === "read" )}
                                update={update}
-                           />
                            />
                        </div>
                    </div>
